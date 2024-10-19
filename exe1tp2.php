@@ -40,7 +40,7 @@
         print_r($note);
         $m=moyenne($note);
         echo "<br>";
-        echo "la moyeene est : $m";
+        echo "la moyenne est : $m";
 ?>
 
 
