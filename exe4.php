@@ -1,11 +1,12 @@
 <?php
 function testerchaine($chaine){
-    $pattern='/[0-9]/';
+    $pattern='/^[a-z]$/i';
     echo preg_match($pattern,$chaine);
 }
 function qst2($chaine){
     $pattern="/@/";
-    echo preg_match($pattern,$chaine);
+    echo preg_match
+    ($pattern,$chaine);
 }
 $chaine="badr123";
 $chaine1="badrnadnj";
@@ -15,6 +16,7 @@ echo "<br>";
 testerchaine($chaine1);
 echo "<br>";
 qst2($chaine3);
+
 
 
 function qt3($num){

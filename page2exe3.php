@@ -7,8 +7,7 @@
 </head>
 <body>
     <?php
-    $table1 = ['sam@gmail.com'=>'+212444444',
-    'cris@gmail.com'=>'+21288888'];
+    $table1 = ['sam@gmail.com'=>'+212444444', 'cris@gmail.com'=>'+21288888'];
     
     include("exe3generatetable.php");
         $Name="email";
